@@ -24,17 +24,17 @@ public class iPhone implements MusicPlayer, SmartPhone, Browser{
 	
 	@Override
 	public void ligar(String numero) {
-		
+		System.out.println("Ligando para " + numero + " ... Aguarde!");
 	}
 
 	@Override
 	public void atender() {
-		
+		System.out.println("Chamada atendida");
 	}
 
 	@Override
 	public void iniciarCorreioVoz() {
-		
+		System.out.println("Iniciando Correio de Voz");
 	}
 
 	
